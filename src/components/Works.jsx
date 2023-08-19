@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { gsap, ScrollTrigger} from "gsap/all";
 import { styles } from "../styles";
 import { github } from "../assets";
+import deployment from "../assets/deployment.png";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -17,6 +18,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  source_proj_link,
 }) => {
   return (
       <Tilt
@@ -34,17 +36,29 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+         <div className="absolute  inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
               />
             </div>
+
+            <div
+              onClick={() => window.open(source_proj_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-[5px]"
+            >
+              <img
+                src={deployment}
+                alt="launch"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+
           </div>
         </div>
 

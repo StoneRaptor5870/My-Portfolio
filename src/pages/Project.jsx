@@ -2,6 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { AiFillEye } from 'react-icons/ai'
+import deployment from "../assets/deployment.png";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -39,9 +40,11 @@ const ProjectCard = ({
                 onClick={() => window.open(source_proj_link, "_blank")}
                 className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               >
-                <AiFillEye 
-                  className='w-1/2 h-1/2 object-contain'
-                />
+                <img
+                src={deployment}
+                alt="launch"
+                className="w-1/2 h-1/2 object-contain"
+              />
               </div>
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
