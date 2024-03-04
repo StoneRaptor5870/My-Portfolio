@@ -130,21 +130,21 @@ const Contact = () => {
         >
           {loading ? "Sending..." : "Send"}
         </button>
-        <div className="flex flex-row space-x-32">
+        <div className="grid grid-cols-3 gap-36">
           <a href='https://www.linkedin.com/in/nischay-b87027214/' target="_blank"> <img 
                     src={linkedin}
                     alt='Linkedin'
-                    className='w-16 h-16 object-fit'
+                    className='w-24 sm:w-32 md:w-24 min-[320px]:w-24 h-auto object-fit'
                 ></img></a>
           <a href='https://github.com/StoneRaptor5870' target="_blank"> <img 
                     src={github}
                     alt='Github'
-                    className='w-16 h-16 object-fit'
+                    className='w-24 sm:w-32 md:w-24 min-[320px]:w-24 h-auto object-fit'
                 ></img></a>
           <a href='https://drive.google.com/file/d/1Pwt3P8Ifq8Loj5oLDhMqWGWxhU61Kj2N/view?usp=sharing' target="_blank"> <img 
                     src={resume}
                     alt='Resume'
-                    className='w-16 h-16 object-fit'
+                    className='w-24 sm:w-32 md:w-24 min-[320px]:w-24 h-auto object-fit'
                 ></img></a>
         </div>
       </form>
