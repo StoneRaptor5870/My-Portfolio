@@ -130,23 +130,23 @@ const Contact = () => {
         >
           {loading ? "Sending..." : "Send"}
         </button>
-        <div className="flex space-x-40">
+        <div className="flex flex-row space-x-32">
           <a href='https://www.linkedin.com/in/nischay-b87027214/' target="_blank"> <img 
                     src={linkedin}
                     alt='Linkedin'
-                    className='w-[10rem] h-[2.58em] object-fit'
+                    className='w-16 h-16 object-fit'
                 ></img></a>
           <a href='https://github.com/StoneRaptor5870' target="_blank"> <img 
                     src={github}
                     alt='Github'
-                    className='w-[10rem] h-3rem] object-fit'
+                    className='w-16 h-16 object-fit'
                 ></img></a>
-          <a href='https://drive.google.com/drive/folders/1xf62J3X9qrt7Wg0fMchY_KYs35FWJGlB?usp=sharing' target="_blank"> <img 
+          <a href='https://drive.google.com/file/d/1Pwt3P8Ifq8Loj5oLDhMqWGWxhU61Kj2N/view?usp=sharing' target="_blank"> <img 
                     src={resume}
                     alt='Resume'
-                    className='w-[10rem] h-4rem] object-fit'
+                    className='w-16 h-16 object-fit'
                 ></img></a>
-          </div>
+        </div>
       </form>
     </motion.div>
 

@@ -19,6 +19,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./python.png";
+import goodspace from "./company/goodspace.png";
 
 import geniegig from "../assets/company/geniegig.png";
 import gromo from "../assets/company/gromo.png";
@@ -33,6 +34,7 @@ import mapworkout from "../assets/mapworkout.png";
 import express from "./express.png";
 
 export {
+  goodspace,
   express,
   logo,
   backend,

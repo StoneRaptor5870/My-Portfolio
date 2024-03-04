@@ -27,6 +27,7 @@ import {
   forkify,
   mysql,
   mapworkout,
+  goodspace,
 } from "../assets";
 
 export const navLinks = [
@@ -146,6 +147,18 @@ const experiences = [
       "Implemented the stories microservice to be used by gromo app users, it increased the DAU by 20%.",
       "Conceptualised and implemented the lead rejection mechanism for gromo users.",
       "Ideated the product development for insurance automation by working on APIs, database documentation and user journey for various insurances.",
+    ],
+  },
+  {
+    title: "Software Development Intern",
+    company_name: "Goodspace.ai",
+    icon: goodspace,
+    iconBg: "#E6DEDD",
+    date: "December 2023 - January 2024",
+    points: [
+      "Overhauled Goodspace products backend, designed the master database for all the products.",
+      "Implemented new user onboarding process, improved existing bots functionality with Web RTC and speech api.",
+      "Migrated production database from AWS RDS to Azure.",
     ],
   },
 ];
