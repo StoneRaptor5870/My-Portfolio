@@ -19,10 +19,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./python.png";
-import goodspace from "./company/goodspace.png";
 
 import geniegig from "../assets/company/geniegig.png";
 import gromo from "../assets/company/gromo.png";
+import udteschool from "../assets/company/udteschool.jpg";
 
 import fightinggame from "../assets/fightinggame.png";
 import forkify from "../assets/forkify.png";
@@ -30,11 +30,30 @@ import tripsntours from "../assets/tripsntours.png";
 import videochat from "../assets/videochat.png";
 import weather from "../assets/weather.png";
 import mapworkout from "../assets/mapworkout.png";
+import wallet from "../assets/wallet.png";
+
+import nextjs from "../assets/tech/next.png";
+import prisma from "../assets/tech/prisma.png";
+import docker from "../assets/tech/docker.png";
+import kubernetes from "../assets/tech/kubernetes.png";
+import cicd from "../assets/tech/cicd.png";
+import postgres from "../assets/tech/postgres.png";
+import aws from "../assets/tech/aws.png";
+import redis from "../assets/tech/redis.png";
 
 import express from "./express.png";
 
 export {
-  goodspace,
+  wallet,
+  nextjs,
+  prisma,
+  docker,
+  kubernetes,
+  cicd,
+  postgres,
+  aws,
+  redis,
+  udteschool,
   express,
   logo,
   backend,
