@@ -162,14 +162,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Development Intern",
-    company_name: "GenieGig",
-    icon: geniegig,
-    iconBg: "#383E56",
-    date: "January 2022 - June 2022",
+    title: "Software Development Engineer",
+    company_name: "UDT eSchool",
+    icon: udteschool,
+    iconBg: "#E6DEDD",
+    date: "September 2023 - Present",
     points: [
-      "Conceptualised and implemented a freelancing platform with Node.js. It was able to manage an average daily traffic of 150+ users.",
-      "Got an opportunity to work on the business development front and boosted the monthly revenue by 18%.",
+      "Technology stack: Javascript, React.js, Node.js, Python, SQL, MongoDB, Amazon Web Services (AWS), CI/CD.",
+      "Accelerated the notification service with AWS Lambda to continuously send notification pings to more than 40 partner schools resulting 20% increase in partner retention and 45% increase in service uptime.",
+      "Produced various reports generation services increasing the efficiency of partner schools by 23%.",
+      "Executed the transition of frontend code from vanilla JavaScript to React.js and Redux.js, leading to a 50% reduction in code complexity, which streamlined future feature development and improved overall maintainability.",
+      "Established automated testing protocols within the CI/CD pipelines, resulting in a decrease of critical bugs by 40% in production releases; the new process is now utilized by over 15 developers in the tech department.",
+      "Revamped backend services to align with specific school requirements, resulting in a 40% reduction in response time for administrative queries and enhancing user satisfaction among 1,000+ students and faculty"
     ],
   },
   {
@@ -187,18 +191,14 @@ const experiences = [
     ],
   },
   {
-    title: "Software Development Engineer",
-    company_name: "UDT eSchool",
-    icon: udteschool,
-    iconBg: "#E6DEDD",
-    date: "September 2023 - Present",
+    title: "Software Development Intern",
+    company_name: "GenieGig",
+    icon: geniegig,
+    iconBg: "#383E56",
+    date: "January 2022 - June 2022",
     points: [
-      "Technology stack: Javascript, React.js, Node.js, Python, SQL, MongoDB, Amazon Web Services (AWS), CI/CD.",
-      "Accelerated the notification service with AWS Lambda to continuously send notification pings to more than 40 partner schools resulting 20% increase in partner retention and 45% increase in service uptime.",
-      "Produced various reports generation services increasing the efficiency of partner schools by 23%.",
-      "Executed the transition of frontend code from vanilla JavaScript to React.js and Redux.js, leading to a 50% reduction in code complexity, which streamlined future feature development and improved overall maintainability.",
-      "Established automated testing protocols within the CI/CD pipelines, resulting in a decrease of critical bugs by 40% in production releases; the new process is now utilized by over 15 developers in the tech department.",
-      "Revamped backend services to align with specific school requirements, resulting in a 40% reduction in response time for administrative queries and enhancing user satisfaction among 1,000+ students and faculty"
+      "Conceptualised and implemented a freelancing platform with Node.js. It was able to manage an average daily traffic of 150+ users.",
+      "Got an opportunity to work on the business development front and boosted the monthly revenue by 18%.",
     ],
   },
 ];
