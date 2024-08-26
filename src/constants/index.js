@@ -5,6 +5,7 @@ import {
   github,
   menu,
   close,
+  zap,
   python,
   wallet,
   css,
@@ -239,6 +240,36 @@ const projects = [
     source_proj_link: "https://wallet-app-user-app.vercel.app/signup",
   },
   {
+    name: "Zap Automation",
+    description:
+      "Automation software like zapier which supports sending mails and solana from webhook.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Kafka",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: zap,
+    source_code_link: "https://github.com/StoneRaptor5870/zap",
+    source_proj_link: "https://zap-primary.vercel.app/",
+  },
+  {
     name: "Trips n Tours",
     description:
       "A travel agency web application with user authorization and authentication, payments gateway with stripe, geolocation with leaflet, brevo for emails.",
@@ -271,7 +302,10 @@ const projects = [
     image: tripsntours,
     source_code_link: "https://github.com/StoneRaptor5870/tours-n-trip",
     source_proj_link: "https://tours-n-trip.vercel.app/",
-  },
+  }
+];
+
+const moreProj = [
   {
     name: "Les Connect",
     description:
@@ -301,10 +335,7 @@ const projects = [
     image: videochat,
     source_code_link: "https://github.com/StoneRaptor5870/VideoChat",
     source_proj_link: "https://video-chat-nv.netlify.app/",
-  }
-];
-
-const moreProj = [
+  },
   {
     name: "Check Weather",
     description:

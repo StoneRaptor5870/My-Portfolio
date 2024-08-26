@@ -31,6 +31,7 @@ import videochat from "../assets/videochat.png";
 import weather from "../assets/weather.png";
 import mapworkout from "../assets/mapworkout.png";
 import wallet from "../assets/wallet.png";
+import zap from "../assets/zap.png";
 
 import nextjs from "../assets/tech/next.png";
 import prisma from "../assets/tech/prisma.png";
@@ -83,4 +84,5 @@ export {
   mysql,
   mapworkout,
   python,
+  zap
 };
