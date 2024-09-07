@@ -14,6 +14,7 @@ import {
   html,
   javascript,
   mongodb,
+  podnest,
   nodejs,
   reactjs,
   redux,
@@ -270,6 +271,43 @@ const projects = [
     source_proj_link: "https://zap-primary.vercel.app/",
   },
   {
+    name: "PodNest",
+    description:
+      "Podcast platform with generative AI.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Convex",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Open AI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: podnest,
+    source_code_link: "https://github.com/StoneRaptor5870/podnest",
+    source_proj_link: "https://podnest.vercel.app/",
+  }
+];
+
+const moreProj = [
+  {
     name: "Trips n Tours",
     description:
       "A travel agency web application with user authorization and authentication, payments gateway with stripe, geolocation with leaflet, brevo for emails.",
@@ -302,10 +340,7 @@ const projects = [
     image: tripsntours,
     source_code_link: "https://github.com/StoneRaptor5870/tours-n-trip",
     source_proj_link: "https://tours-n-trip.vercel.app/",
-  }
-];
-
-const moreProj = [
+  },
   {
     name: "Les Connect",
     description:

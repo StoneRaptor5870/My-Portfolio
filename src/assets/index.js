@@ -32,6 +32,7 @@ import weather from "../assets/weather.png";
 import mapworkout from "../assets/mapworkout.png";
 import wallet from "../assets/wallet.png";
 import zap from "../assets/zap.png";
+import podnest from "../assets/podnest.png";
 
 import nextjs from "../assets/tech/next.png";
 import prisma from "../assets/tech/prisma.png";
@@ -45,6 +46,7 @@ import redis from "../assets/tech/redis.png";
 import express from "./express.png";
 
 export {
+  podnest,
   wallet,
   nextjs,
   prisma,
