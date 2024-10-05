@@ -21,48 +21,24 @@ const ProjectCard = ({
   source_proj_link,
 }) => {
   return (
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
-      >
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+    <Tilt
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
+      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full flex flex-col justify-between'
+    >
+      <div className='relative w-full h-0' style={{ paddingBottom: '56.25%' }}> {/* 16:9 Aspect Ratio */}
+        <img
+          src={image}
+          alt='project_image'
+          className='absolute top-0 left-0 w-full h-full object-cover rounded-2xl' // Use object-cover to fill the container
+        />
+      </div>
 
-         <div className="absolute  inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-
-            <div
-              onClick={() => window.open(source_proj_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-[5px]"
-            >
-              <img
-                src={deployment}
-                alt="launch"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-
-          </div>
-        </div>
-
-        <div className='mt-5'>
+      <div className='flex flex-col flex-grow justify-between pt-4'>
+        <div>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
@@ -77,7 +53,32 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
+
+      <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+        <div
+          onClick={() => window.open(source_code_link, "_blank")}
+          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+        >
+          <img
+            src={github}
+            alt="github"
+            className="w-1/2 h-1/2 object-contain"
+          />
+        </div>
+
+        <div
+          onClick={() => window.open(source_proj_link, "_blank")}
+          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-[5px]"
+        >
+          <img
+            src={deployment}
+            alt="launch"
+            className="w-1/2 h-1/2 object-contain"
+          />
+        </div>
+      </div>
+    </Tilt>
   );
 };
 

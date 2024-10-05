@@ -33,6 +33,7 @@ import mapworkout from "../assets/mapworkout.png";
 import wallet from "../assets/wallet.png";
 import zap from "../assets/zap.png";
 import podnest from "../assets/podnest.png";
+import parkease from "../assets/parkease.png";
 
 import nextjs from "../assets/tech/next.png";
 import prisma from "../assets/tech/prisma.png";
@@ -47,6 +48,7 @@ import express from "./express.png";
 
 export {
   podnest,
+  parkease,
   wallet,
   nextjs,
   prisma,

@@ -15,6 +15,7 @@ import {
   javascript,
   mongodb,
   podnest,
+  parkease,
   nodejs,
   reactjs,
   redux,
@@ -207,10 +208,77 @@ const experiences = [
 
 const projects = [
   {
-    name: "Wallet Application",
+    name: "ParkEase",
     description:
-      "Engineered an intuitive wallet app featuring seamless peer-to-peer and peer-to-merchant transfers, incorporating bank transfers alongside transaction trend visualisations.",
+      "A cutting-edge SaaS platform simplifies parking with real-time slot bookings and an integrated valet service. Users can easily find and reserve parking via interactive maps powered by Mapbox, while a valet handles vehicle pickup, secure parking, and return. With seamless payments through Stripe, the platform offers a stress-free, time-saving parking solution.",
     tags: [
+      {
+        name: "Monorepo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nest.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mapbox",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Swagger",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: parkease,
+    source_code_link: "https://github.com/StoneRaptor5870/ParkEase",
+    source_proj_link: "https://park-ease-web.vercel.app/",
+  },
+  {
+    name: "Wallet",
+    description:
+      "A wallet app in a monorepo architecture with customer and merchant applications, supporting peer-to-peer, peer-to-merchant, and bank transfers. It features real-time transaction trend visualizations, multi-currency support, and a bank webhook system for instant updates. The app offers a seamless, secure, and intuitive experience for transactions, wallet top-ups, and withdrawals.",
+    tags: [
+      {
+        name: "Monorepo",
+        color: "pink-text-gradient",
+      },
       {
         name: "Next.js",
         color: "blue-text-gradient",
@@ -243,7 +311,7 @@ const projects = [
   {
     name: "Zap Automation",
     description:
-      "Automation software like zapier which supports sending mails and solana from webhook.",
+      "A powerful automation platform like Zapier, enabling seamless workflows with the ability to send emails and Solana transactions via webhooks. Users can set custom triggers across apps to automate tasks such as email notifications, Solana wallet management, and blockchain transactions, streamlining both Web3 and traditional processes for businesses and developers.",
     tags: [
       {
         name: "Next.js",
@@ -269,7 +337,10 @@ const projects = [
     image: zap,
     source_code_link: "https://github.com/StoneRaptor5870/zap",
     source_proj_link: "https://zap-primary.vercel.app/",
-  },
+  }
+];
+
+const moreProj = [
   {
     name: "PodNest",
     description:
@@ -292,7 +363,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
@@ -303,10 +374,7 @@ const projects = [
     image: podnest,
     source_code_link: "https://github.com/StoneRaptor5870/podnest",
     source_proj_link: "https://podnest.vercel.app/",
-  }
-];
-
-const moreProj = [
+  },
   {
     name: "Trips n Tours",
     description:
