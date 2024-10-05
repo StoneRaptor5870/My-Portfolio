@@ -60,7 +60,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I understand that a successful business relies on a great app, and that's where I come in. As a highly skilled software developer with expertise in JavaScript, Python, React, Node.js, and Three.js frameworks, I have the tools and experience necessary to create efficient, scalable, and user-friendly solutions that can solve real-world problems.
+        I understand that a successful business relies on a great app, and that's where I come in. As a highly skilled software developer with expertise in JavaScript, Typescript, Python, React.js, Node.js and Next.js, I have the tools and experience necessary to create efficient, scalable, and user-friendly solutions that can solve real-world problems.
 
         I am passionate about learning and collaborating closely with my clients to ensure that their vision is brought to life. My goal is to not only meet but exceed your expectations by delivering top-quality results in a timely and professional manner.
 

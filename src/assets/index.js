@@ -34,6 +34,7 @@ import wallet from "../assets/wallet.png";
 import zap from "../assets/zap.png";
 import podnest from "../assets/podnest.png";
 import parkease from "../assets/parkease.png";
+import aora from "../assets/aora.png";
 
 import nextjs from "../assets/tech/next.png";
 import prisma from "../assets/tech/prisma.png";
@@ -48,6 +49,7 @@ import express from "./express.png";
 
 export {
   podnest,
+  aora,
   parkease,
   wallet,
   nextjs,

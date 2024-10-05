@@ -7,6 +7,7 @@ import {
   close,
   zap,
   python,
+  aora,
   wallet,
   css,
   figma,
@@ -69,6 +70,10 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "React Native Developer",
+    icon: reactjs,
   },
   {
     title: "Figma Designer",
@@ -337,14 +342,11 @@ const projects = [
     image: zap,
     source_code_link: "https://github.com/StoneRaptor5870/zap",
     source_proj_link: "https://zap-primary.vercel.app/",
-  }
-];
-
-const moreProj = [
+  },
   {
     name: "PodNest",
     description:
-      "Podcast platform with generative AI.",
+      "An innovative podcast platform leveraging generative AI to enhance the experience for creators and listeners. Users can easily create, edit, and distribute podcasts with AI-driven tools for script generation, episode summarization, and personalized content recommendations. ",
     tags: [
       {
         name: "Next.js",
@@ -378,7 +380,7 @@ const moreProj = [
   {
     name: "Trips n Tours",
     description:
-      "A travel agency web application with user authorization and authentication, payments gateway with stripe, geolocation with leaflet, brevo for emails.",
+      "A travel agency web app with secure user authentication, Stripe integration for payments, Leaflet-powered geolocation, and Brevo for email notifications. It offers user-friendly trip planning, bookings, and personalized travel recommendations.",
     tags: [
       {
         name: "HTML5",
@@ -409,6 +411,39 @@ const moreProj = [
     source_code_link: "https://github.com/StoneRaptor5870/tours-n-trip",
     source_proj_link: "https://tours-n-trip.vercel.app/",
   },
+  {
+    name: "Aora - Video Sharing App",
+    description:
+      "Built with React Native for smooth user experiences, Animatable for engaging animations, and integrated with Appwrite's backend, this app enables seamless sharing of videos within the community.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nativewind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Animatable",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Appwrite",
+        color: "green-text-gradient",
+      },
+    ],
+    image: aora,
+    source_code_link: "https://github.com/StoneRaptor5870/aora",
+    source_proj_link: "https://expo.dev/artifacts/eas/oxaKDrXRcu4aAJz8hbTcJw.aab",
+  }
+];
+
+const moreProj = [
   {
     name: "Les Connect",
     description:

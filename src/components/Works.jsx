@@ -29,11 +29,11 @@ const ProjectCard = ({
       }}
       className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full flex flex-col justify-between'
     >
-      <div className='relative w-full h-0' style={{ paddingBottom: '56.25%' }}> {/* 16:9 Aspect Ratio */}
+      <div className='relative w-full h-0' style={{ paddingBottom: '56.25%' }}>
         <img
           src={image}
           alt='project_image'
-          className='absolute top-0 left-0 w-full h-full object-cover rounded-2xl' // Use object-cover to fill the container
+          className='absolute top-0 left-0 w-full h-full object-cover rounded-2xl'
         />
       </div>
 
@@ -83,7 +83,7 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  const homeProjects = projects.slice(0,3)
+  const homeProjects = projects.slice(0,6)
   const workRef = useRef(null)
   const textRef = useRef(null)
 
