@@ -174,7 +174,7 @@ const experiences = [
     company_name: "UDT eSchool",
     icon: udteschool,
     iconBg: "#E6DEDD",
-    date: "September 2023 - Present",
+    date: "January 2024 - January 2025",
     points: [
       "Technology stack: Javascript, React.js, Node.js, Python, SQL, MongoDB, Amazon Web Services (AWS), CI/CD.",
       "Accelerated the notification service with AWS Lambda to continuously send notification pings to more than 40 partner schools resulting 20% increase in partner retention and 45% increase in service uptime.",
