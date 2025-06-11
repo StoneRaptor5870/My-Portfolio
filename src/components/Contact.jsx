@@ -147,7 +147,7 @@ const Contact = () => {
             />
           </a>
           <a
-            href="https://drive.google.com/file/d/1qOwol87TZSuILj651azNng-Dw50Z4lpn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1vHQgpQGXSTPbQFY5L-jPhucbs_qpPq3y/view?usp=sharing"
             target="_blank"
           >
             <img
